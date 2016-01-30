@@ -1,0 +1,330 @@
+@font-face {
+  font-family:'SlimTony';
+  src: url('fonts/SlimTony.otf');
+}
+
+@font-face {
+  font-family:'ProximaNova';
+  src: url('fonts/ProximaNova.otf');
+}
+
+.logo {
+  float: left;
+}
+
+.logo>img {
+  width: 200px;
+  height: 27px;
+  margin-left: 100px;
+  margin-top: 32px;
+  margin-bottom: 31px;
+}
+
+.clear::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+body {
+  margin: 0;
+  margin-top: 0;
+  font-family: ProximaNova, Arial, sans-serif;
+  color: #212121;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+body .header-top .container .header-menu ul {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  margin-right: 99;
+}
+
+body .header-top .container .header-menu ul li {
+  color: red;
+  float: right;
+  display: inline-block;
+  margin-right: 18;
+  margin-top: 40px;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+body .header-top .container .header-menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+body header .header-main .container .description>img {
+  width: 100%;
+}
+
+body header .header-main .container .description .slogan-main {
+  z-index: 10;
+  position: absolute;
+  top: 350;
+  height: 90px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+body header .header-main .container .description .slogan-1 {
+  font-family: ProximaNova, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 47px;
+  font-weight: bold;
+  margin-bottom: 66px;
+}
+
+body header .header-main .container .description .slogan-2 {
+  font-family: SlimTony, Arial, sans-serif;
+  font-size: 90px;
+}
+body main {
+  margin-bottom: 488px;
+}
+
+body main .container {
+  width: 89%;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+}
+
+body main .about .container h1 {
+  margin-bottom: 0;
+  margin-top: 79px;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+body main .about .container .about-slogan {
+  float: left;
+  display: inline-block;
+}
+
+body main .about .container .about-slogan .brackets {
+  width: 44px;
+  height: 34px;
+  margin-top: 44px;
+  position: absolute;
+  left: 75px
+}
+
+body main .about .container .about-slogan p {
+  width: 309px;
+  height: 133px;
+  color: #212121;
+  font-family: ProximaNova;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 50px;
+  text-transform: uppercase;
+  margin: 0;
+  float: left;
+  position: relative;
+  margin-top: 89px;
+}
+
+body main .about .container .about-column {
+  float: right;
+}
+
+body main .about .container .about-column p {
+  margin-top: 44px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: ProximaNova;
+  line-height: 26px;
+  color: #595959;
+  float: left;
+}
+
+body main .about .container .about-column .p1 {
+  width: 365px;
+}
+
+body main .about .container .about-column .p2 {
+  width: 365px;
+  margin-left: 56px;
+}
+
+body main .about .background1 {
+  width: 100%;
+  margin-top: 95px;
+}
+
+body main .services .container h1 {
+  margin-bottom: 0;
+  margin-top: 79px;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.services .services-columns .services-column:last-child {
+  margin-right: 0;
+}
+
+body main .services .container .services-column {
+  float: left;
+  font-size: 48px;
+  line-height: 52px;
+  margin-right: 65px;
+}
+
+body main .services .container .services-column .price {
+  font-weight: bold;
+}
+
+body main .services .container .services-column .column-content {
+  width: 251px;
+  font-family: Born;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+body main .lookbook .container {
+  width: 89%;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+}
+
+body main .container h1 {
+  margin-bottom: 0;
+  margin-top: 79px;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+body main .lookbook .background2 {
+  width: 100%;
+  margin-top: 50px;
+}
+
+body main .reservations .container .contact-block {
+  width: 364px;
+  height: 54px;
+  border: 1px solid #dfdfdf;
+  margin-top: 30px;
+  color: #595959;
+  font-family: Born;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 59px;
+  display: block;
+  padding-left: 20px;
+}
+
+body main .reservations .container .additional-block {
+  width: 776px;
+  height: 317px;
+  border: 1px solid #dfdfdf;
+  color: #595959;
+  font-family: Born;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 59px;
+  display:block;
+  float: right;
+  padding-left: 20px;
+}
+
+button {
+  width: 192px;
+  height: 54px;
+  background-color: #ffdc19;
+  border: 0;
+  margin-top: 50px;
+  font-family: ProximaNova;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: white;
+}
+
+ .map .background-map {
+  width: 100%;
+  margin-top: 100px;
+  position: absolute;
+}
+
+.map .map-pointer-wrapper {
+  width: 202px;
+  height: 173px;
+  position: relative;
+  
+  top: 225px;
+  left: 630px;
+}
+
+.map-pointer-wrapper {
+  background-image: url(../images/map-point.png)
+}
+
+.map-pointer-wrapper .map-pointer-header {
+  width: 161px;
+  height: 19px;
+  color: #212121;
+  font-family: Azedo;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 67px;
+}
+
+.map-pointer-wrapper .map-pointer-content {
+  width: 154px;
+  height: 87px;
+  color: #595959;
+  font-family: Born;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  margin-left: 31px;
+  
+}
+
+.map-pointer-wrapper-logo {
+  margin-left: 31px;
+  margin-top: 29px;
+  width: 148px;
+  height: 17px;
+}
+
+footer .footer-container {
+  width: 100%;
+  height: 90px;
+  background-color: #212121;
+  display: table;
+}
+
+body footer .footer-container .footer-content .container .footer-menu ul {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  margin-right: 99;
+}
+
+body footer .footer-container .footer-content .container .footer-menu ul li {
+  color: red;
+  float: right;
+  display: inline-block;
+  margin-right: 18;
+  margin-top: 40px;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+body footer .footer-container .footer-content .container .footer-menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
